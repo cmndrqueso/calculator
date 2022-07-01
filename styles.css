@@ -1,6 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .calc-body{
     background-color:aqua;
     height: 100%;
+    width:30%;
     display: flex;
     flex-direction: column
 }
@@ -12,12 +18,36 @@
     width:100%;
     align-items: flex-end;
 }
+.clear{
+    display: flex;
+}
 .Input-Container{
     display: flex;
     justify-content: center;
 }
 .buttons{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     width: 10%;
+}
+.nums{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.final{
+    display: flex;
+    flex-direction: row;
 }
