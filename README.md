@@ -4,4 +4,4 @@ This is my calculator project. It is for the most part responsive. I don't have 
 
 ## Stuff I learned
 
-So far my challenge has been accessibility and making the site responsive. I had to refresh my knowledge on media queries and now the site is responsive.
+- Responsive design: The first problem I ran into was accessibility and making the site responsive. I had to refresh my knowledge on media queries and now the site is responsive.
