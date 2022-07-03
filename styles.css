@@ -2,113 +2,148 @@
     padding: 0;
     margin: 0;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:100vw;
-    height: 100vh;
-    border-style: solid;
-    background-color: darkslategray;
+/* Small screens */
+@media (min-width: 320px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100vw;
+        height: 100vh;
+        border-style: solid;
+        background-color: darkslategray;
+    }
+    .calc-body{
+        margin-top: 15%;
+        background-color:rgb(0,153,204);
+        display: flex;
+        flex-direction: column;
+        width:90vw;
+        height: 60vh;
+        border-color:black;
+        border-style: solid;
+        border-radius: 2.5rem;
+    }
+    .Screen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: lightskyblue;
+        border-radius: 1.5rem;
+        width:80%;
+        height:20%;
+        align-items: flex-end;
+        border-color:black;
+        border-style: solid;
+        margin:10%;
+    }
+    .calculation{
+        font-size: 1.3rem;
+    }
+    .answer{
+        font-size: 1.6rem;
+        color:aliceblue;
+        font-weight: bold;
+    }
+    .text{
+        padding-right:5%;
+        padding-top:2%;
+    }
+    .Input-Container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:60%;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        border-radius: 2.5rem;
+    }
+    .five{
+        height:20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .four{
+        height:20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .three{
+        height:20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .two{
+        height:20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .one{
+        height:20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .btn{
+        flex: 1;
+        border-radius: 50%;
+    }
+    .btn2{
+        flex: 2;
+        margin-right:2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 2.5rem;
+    }
+    .btn3{
+        flex:2;
+        border-radius: 2.5rem;
+    }
+    .btns{
+        margin:1%;
+        width: 45px;
+        height: 55px;
+        border-color: black;
+        background-color:rgb(0, 204, 255);
+    }
+    
 }
-.calc-body{
-    margin-top: 15%;
-    background-color:rgb(0,153,204);
-    display: flex;
-    flex-direction: column;
-    width:80vw;
-    height: 60vh;
-    border-color:black;
-    border-style: solid;
-    border-radius: 2.5rem;
+
+/* iPhone 12 Pro */
+@media (min-width:390px){
+    .calc-body{
+        width:80vw;
+    }
 }
-.Screen{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: lightskyblue;
-    border-radius: 1.5rem;
-    width:80%;
-    height:20%;
-    align-items: flex-end;
-    border-color:black;
-    border-style: solid;
-    margin:10%;
+@media (min-width:425px){
+    .calc-body{
+        width:60vw;
+    }
 }
-.calculation{
-    font-size: 1.3rem;
+@media (min-width:600px) {
+    .calc-body{
+        width:45vw;
+    }    
 }
-.answer{
-    font-size: 1.6rem;
-    color:aliceblue;
-    font-weight: bold;
+/* Tablet */
+@media (min-width: 768px) {
+    .calc-body{
+        width:45vw;
+    }
 }
-.text{
-    padding-right:5%;
-    padding-top:2%;
+/* Laptop */
+@media (min-width:1024px) {
+    .calc-body{
+        width:30vw;
+    }
 }
-.Input-Container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height:60%;
-}
-.buttons{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    background-color:blue;
-    border-color: deepskyblue;
-    border-style: solid;
-    border-radius: 2.5rem;
-}
-.five{
-    height:20%;
-    display: flex;
-    flex-direction: row;
-}
-.four{
-    height:20%;
-    display: flex;
-    flex-direction: row;
-}
-.three{
-    height:20%;
-    display: flex;
-    flex-direction: row;
-}
-.two{
-    height:20%;
-    display: flex;
-    flex-direction: row;
-}
-.one{
-    height:20%;
-    display: flex;
-    flex-direction: row;
-}
-.btn{
-    flex: 1;
-    border-radius: 50%;
-}
-.btn2{
-    flex: 2;
-    margin-right:2px;
-    padding-left: 4px;
-    padding-right: 4px;
-    border-radius: 2.5rem;
-}
-.btn3{
-    flex:2;
-    border-radius: 2.5rem;
-}
-.btns{
-    margin:1%;
-    width: 45px;
-    height: 55px;
-    border-color: black;
-    /* box-shadow: 1px 1px 1px 1px; */
-    background-color:rgb(0, 204, 255);
+/* 1440px Screen */
+@media (min-width:1440px){
+    .calc-body{
+        width:20vw;
+    }
 }
