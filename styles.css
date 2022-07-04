@@ -112,7 +112,6 @@
     }
     
 }
-
 /* iPhone 12 Pro */
 @media (min-width:390px){
     .calc-body{
@@ -133,6 +132,16 @@
 @media (min-width: 768px) {
     .calc-body{
         width:45vw;
+    }
+}
+@media (min-width:800px){
+    .calc-body{
+        width:40vw;
+    }
+}
+@media (min-width:900px){
+    .calc-body{
+        width:35vw;
     }
 }
 /* Laptop */
